@@ -1,0 +1,17 @@
+﻿@model List<ef3.Models.Form>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">
+    <div class="col-md-3">
+        <h2>Forms ....</h2>
+        <ul>
+            @foreach(Form form in Model)
+            {
+                <li>@form.Name</li>
+            }
+        </ul>
+    </div>
+</div>
