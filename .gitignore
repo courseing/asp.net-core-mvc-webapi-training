@@ -328,3 +328,5 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+001 asp.net mvc entityframework/.vscode/launch.json
+001 asp.net mvc entityframework/.vscode/tasks.json
